@@ -351,7 +351,7 @@ export default class App extends React.Component {
   async setAllMoney() {
     let money = 0;
 
-    for (let i = 1; i <= 30; i++) {
+    for (let i = 1; i <= 31; i++) {
       let a = parseInt(await this.getAllRememberedMoney(i));
       money = money + a;
     }
